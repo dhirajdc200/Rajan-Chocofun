@@ -1,0 +1,193 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #ffe6e6; 
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px; 
+    padding-bottom: 80px; 
+    min-height: 100vh; 
+}
+
+nav {
+    background-color: #c40000;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; 
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #ffcc00; 
+    color: #c40000; 
+    border-radius: 5px;
+}
+
+header, main{
+    max-width: 800px;
+    width: 100%; 
+    margin: 20px auto;
+    text-align: center;
+}
+header h1 {
+    font-size: 2.5em;
+    color: #c40000; 
+    margin-bottom: 0px;
+}
+
+.intro {
+    background: #ffcccc; 
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.intro img {
+    width: 100%;
+    max-width: 600px;  
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Smaller images */
+    gap: 10px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.background-section {
+    background: #ffcccc; 
+    margin-top: 20px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+}
+.nutrition .ingredients {
+    background: #ffcccc;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.nutrition table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+.nutrition th, .nutrition td {
+    border: 1px solid #c40000;
+    padding: 8px;
+    text-align: left;
+}
+footer {
+    background-color: #c40000; 
+    color: #fff; 
+    border-radius: 20px; 
+    width: 60%; 
+    max-width: 100%; 
+    margin: 0 auto; 
+}
+
+
+.footer-contact h2 {
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    border: 2px solid #c40000;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffcccc; 
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.contact-form .form-row {
+    color: #333;
+    display: flex;
+    flex-direction: column; 
+    gap: 8px;
+    width: 30%;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 8px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #c40000;
+}
+
+.contact-form button {
+    background-color: #ffcc00;
+    color: #c40000;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.footer-info {
+    margin-top: 20px;
+}
+
+.logo-and-copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-info .logo {
+    width: 60px;
+    height: 35px;
+}
+
+
+
+
+
+
